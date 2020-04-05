@@ -1,7 +1,7 @@
 # Site
-title:              Moon
-bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+title:              HyunEui
+bio:                'Welcome to my blog!'
+description:        "개인 학습을 정리하기 위해 제작된 블로그 입니다. 방문해 주셔서 감사합니다."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -37,20 +37,20 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            hyuneuiahn
-facebook:           hyuneuiahn
-github-url:         hyuneuiahn
+email:              heahn153@gmail.com
+#twitter:           username
+#facebook:          username
+github-url:         hyunEuiAhn/hyuneuiahn.github.io
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          hyuneuiahn
+instagram:          h___eahn
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              hyuneuiahn
+#steam:             username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
