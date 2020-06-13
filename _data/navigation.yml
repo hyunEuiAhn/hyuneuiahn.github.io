@@ -3,9 +3,17 @@
 - title: Projects
   url: /projects/
 
-
 - title: react
   url: /react/
 
-- title: basic
-  url: /basic/
+- title: git
+  url: /git/
+
+- title: database
+  url: /database/
+
+- title: javascript
+  url: /javascript/
+
+- title: jenkins
+  url: /jenkins/
