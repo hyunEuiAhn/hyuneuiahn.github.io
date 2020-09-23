@@ -96,23 +96,33 @@ ex) String test = "This";
 {% endhighlight %}
 
 문자열을 합치는 데 여러 방법을 사용할 수 있습니다. 
+
 "+", concat, StringBuilder, StringBuffer 방법을 사용할 수 있는데 차이점에 대해 알아보겠습니다.
+
 기본적으로 "+"를 사용하거나 concat을 많이 활용하여 문자열을 더할 것입니다.
+
 위와 같은 방법을 사용하면 String에 데이터가 바뀌면 매번 메모리 주소가 변경됩니다.
+
 StringBuilder, StringBuffer가 존재하는 이유는 여기에 있습니다.
 
 String의 경우에는 새로운 값이 할당될 때마다 메모리를 새롭게 생성해 메모리 값이 지속적으로 쌓여 나갑니다.
+
 적은양의 소스를 작성할 경우에는 별 차이를 느끼진 못 하겠지만, 대용량 데이터를 다루어야 할 경우에 문제가 발생할 수 있습니다.
+
 반면에 StringBuilder와 StringBuffer는 기존에 생성된 메모리에 데이터를 적재하는 방식입니다.
+
 그렇기 때문에 앞에 말한 "+", concat을 활용해 데이터를 더하는 방법보다 더 효율적입니다.
 
 하지만 여기서 또 알아야 할 것들이 있습니다.
+
 바로 StringBuilder, StringBuffer의 차이점 입니다.
+
 StringBuilder는 메모리 값이 더 작지만 쓰레드가 동시에 접근이 가능하기 때문에 안정성이 StringBuffer 보다 떨어집니다.
+
 StringBuffer는 멀티 쓰레드 환경에서 값을 변경할 수 없도록 하여 안정성이 높으며, 웹이나 소켓 환경처럼 비동기식 처리 방식이 필요할 경우 유용하다.
 
+* 참조 사이트: <https://novemberde.github.io/2017/04/15/String_0.html>
 ---
 
-* 참조 사이트: <https://novemberde.github.io/2017/04/15/String_0.html>
 
 
