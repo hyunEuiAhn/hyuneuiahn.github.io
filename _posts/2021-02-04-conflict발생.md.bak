@@ -33,7 +33,7 @@ stash는 내가 수정한 파일들을 잠시 스택 저장소에 보관하였�
 
 ## stash 명령어
 
-{% highlight java %}
+{% highlight shell_session %}
 $ git status //현재 상태를 확인
 $ git stash list  //stash에 저장된 리스트를 확인할 경우 사용
 $ git stash apply  //가장 마지막에 저장된 항목을 가져온다.
