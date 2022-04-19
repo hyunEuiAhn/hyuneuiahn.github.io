@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "spring viewResolver"
+title:  "spring dispatcherservlet"
 date:   2021-08-08
 excerpt: "스프링 프레임워크"
 java: true
